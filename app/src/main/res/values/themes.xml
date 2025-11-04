@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+<!--    <style name="Theme.HabitTracker" parent="android:Theme.Material.Light.NoActionBar" />-->
+<!--</resources>-->
+
+<resources>
+<style name="Theme.HabitTracker" parent="android:Theme.Material.Light.NoActionBar">
+    <!-- Optional: define window background for splash screen -->
+    <item name="android:windowBackground">@color/white</item>
+</style>
+</resources>
