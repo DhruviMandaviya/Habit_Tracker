@@ -7,7 +7,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.navigation.compose.rememberNavController
 import com.example.dhruvi.habittracker.presentation.ThemeManager
+import com.example.dhruvi.habittracker.presentation.screens.MainScreen
 import com.example.dhruvi.habittracker.presentation.ui.screens.ThemeSettingsScreen
 import com.example.dhruvi.habittracker.presentation.ui.theme.AppTheme
 
@@ -25,7 +27,10 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background,
                 )
                 {
-                    ThemeSettingsScreen(themeManager)
+//                    ThemeSettingsScreen(themeManager)
+////                    AddTaskScreen()
+                    val navController = rememberNavController()
+                    MainScreen(navController)
                 }
 
             }

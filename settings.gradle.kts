@@ -1,4 +1,7 @@
 pluginManagement {
+    plugins {
+        id("org.jetbrains.kotlin.kapt") version "2.2.21"
+    }
     repositories {
         google {
             content {
